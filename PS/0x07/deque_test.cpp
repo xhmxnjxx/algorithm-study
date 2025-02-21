@@ -9,7 +9,7 @@ void push_front(int x){
     dat[--head] = x;
 }
 
-void push_back(int x){
+void push_back(int x){ 
     dat[tail++] = x;
 }
 
@@ -18,7 +18,7 @@ void pop_front(){
 }
 
 void pop_back(){
-
+    tail--;
 }
 
 int front(){
